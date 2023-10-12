@@ -16,6 +16,13 @@ namespace OopTheoryFirstPart
             Console.WriteLine("Sum=" + array.Sum());
             Console.WriteLine("Element at index 0=" + array[0]);
 
+            /* Method overloading */
+            ConsoleHelper.PrintMessage("This is a message");
+            ConsoleHelper.PrintMessage("This is a message", "Label");
+            ConsoleHelper.PrintMessage("This is a message", 2);
+
+            int[] array2 = new[] { 1, 2, 3, 4 };
+            RecursivityHelper.Iterate(array2);
         }
     }
 }

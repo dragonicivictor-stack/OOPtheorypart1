@@ -1,4 +1,6 @@
-﻿namespace OopTheoryLibrary
+﻿using System;
+
+namespace OopTheoryLibrary
 {
     public class IntArray
     {
